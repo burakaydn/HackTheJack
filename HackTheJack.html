@@ -1,146 +1,254 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title></title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
-  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-  <!--This one seems to work all the time, but really small on ipad-->
-  <!--<meta name="viewport" content="initial-scale=0.4">-->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="stylesheet" media="all" href="theme/css/default.css">
-  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
-  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
-  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <!--This one seems to work all the time, but really small on ipad-->
+    <!--<meta name="viewport" content="initial-scale=0.4">-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" media="all" href="theme/css/default.css">
+    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+    <base target="_blank">
+    <!-- This amazingness opens all links in a new tab. -->
+    <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
 </head>
+
 <body style="opacity: 0">
 
-<slides class="layout-widescreen">
+    <slides class="layout-widescreen">
 
-  <slide class="logoslide nobackground">
-    <article class="flexbox vcenter">
-      <span><img src="images/google_developers_logo.png"></span>
-    </article>
-  </slide>
+        <slide class="logoslide nobackground">
+            <article class="flexbox vcenter">
+                <span>
+                    <img src="images/google_developers_logo.png">
+                </span>
+            </article>
+        </slide>
 
-  <slide class="title-slide segue nobackground">
-    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
-    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
-    <hgroup class="auto-fadein">
-      <h1 data-config-title><!-- populated from slide_config.json --></h1>
-      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
-      <p data-config-presenter><!-- populated from slide_config.json --></p>
-    </hgroup>
-  </slide>
-  
-  <slide>
-    <hgroup>
-      <h2>Ajanda</h2>
-      
-    </hgroup>
-    <article>
-      <ul class="build">
-        <li class="red">Neden?</li>
-        <li class="blue">Neler yapılıyor?</li>
-        <li class="green">Nasıl yapılır?</li>
-        <li class="yellow">Demo</li>
-      </ul>
-    </article>
-  </slide>
-  
-  <slide class="fill nobackground" style="background-image: url(images/cute-cow.jpg)">
-    <hgroup>
-      <h2 class="white"><br>Curiosity?</h2>
-    </hgroup>
-    <footer class="source white">www.flickr.com/photos/25797459@N06/5438799763/</footer>
-  </slide>
-  
-  <slide class="fill nobackground" style="background-image: url(images/pressy.png)">
-    <footer class="source black">www.kickstarter.com/projects/556341540/pressy-the-almighty-android-button</footer>
-  </slide>
-  
-  <slide class="fill nobackground" style="background-image: url(images/thermodo-xl.jpg)">
-    <footer class="source black">www.thermodo.com</footer>
-  </slide>
+        <slide class="title-slide segue nobackground">
+            <aside class="gdbar">
+                <img src="images/google_developers_icon_128.png">
+            </aside>
+            <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+            <hgroup class="auto-fadein">
+                <h1 data-config-title>
+                    <!-- populated from slide_config.json -->
+                </h1>
+                <h2 data-config-subtitle>
+                    <!-- populated from slide_config.json -->
+                </h2>
+                <p data-config-presenter>
+                    <!-- populated from slide_config.json -->
+                </p>
+            </hgroup>
+        </slide>
 
-  <slide class="fill nobackground" style="background-image: url(images/jawbone-up.jpg)">
-    <footer class="source black">www.jawbone.com/up</footer>
-  </slide>
-  
-  <slide class="fill nobackground" style="background-image: url(images/Square_Tabs.jpg)">
-    <footer class="source white">www.squareup.com</footer>
-  </slide>
-  
-  <slide>
-    <hgroup>
-      <h2>Neler yapılabilir?</h2>
-      
-    </hgroup>
-    <article>
-      <ul class="build fade">
-        <li class="red">Giyilebilir Cihazlar</li>
-        <li class="blue">Osiloskop</li>
-        <li class="green">EKG Cihazı</li>
-        <li class="yellow">Şeker Ölçüm Cihazı</li>
-      </ul>
-    </article>
-  </slide>
-  
-  <slide>
-    <hgroup>
-      <h2>Nelere ihtiyacımız var?</h2>
-      
-    </hgroup>
-    <article>
-      <ul class="build">
-        <li class="red">Akıllı telefon ve Arduino</li>
-        <li class="blue">4 pinli 3.5mm Jack</li>
-        <li class="green">SoftModem - Link</li>
-        <li class="yellow">Arduino sketch - Link</li>
-		<li class="gray3">Audio terminal - Link</li>
-      </ul>
-    </article>
-  </slide>
-  
-  
-  
-  
-  
-  <slide class="thank-you-slide segue nobackground">
-    <aside class="gdbar right"><img src="images/google_developers_icon_128.png"></aside>
-    <article class="flexbox vleft auto-fadein">
-      <h2>&lt;Thank You!&gt;</h2>
-      <p>burakaydin.net.tr - efecankocuklu.com.tr</p>
-    </article>
-    <p class="auto-fadein" data-config-contact>
-      <!-- populated from slide_config.json -->
-    </p>
-  </slide>
-  
-  <slide class="logoslide dark nobackground">
-    <article class="flexbox vcenter">
-      <span><img src="images/google_developers_logo_white.png"></span>
-  </article>
-  </slide>
+        <slide>
+            <hgroup>
+                <h2>Ajanda</h2>
 
-  <slide class="backdrop"></slide>
+            </hgroup>
+            <article>
+                <ul class="build">
+                    <li class="red">Neden?</li>
+                    <li class="blue">Neler yapılıyor?</li>
+                    <li class="green">Nasıl yapılır?</li>
+                    <li class="yellow">Demo</li>
+                </ul>
+            </article>
+        </slide>
 
-<script>
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
-_gaq.push(['_trackPageview']);
+        <slide class="fill nobackground" style="background-image: url(images/cute-cow.jpg)">
+            <hgroup>
+                <h2 class="white">
+                    <br>Curiosity?</h2>
+            </hgroup>
+            <footer class="source white">www.flickr.com/photos/25797459@N06/5438799763/</footer>
+        </slide>
 
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
+        <slide class="fill nobackground" style="background-image: url(images/pressy.png)">
+            <footer class="source black">www.kickstarter.com/projects/556341540/pressy-the-almighty-android-button</footer>
+        </slide>
 
-<!--[if IE]>
+        <slide class="fill nobackground" style="background-image: url(images/thermodo-xl.jpg)">
+            <footer class="source black">www.thermodo.com</footer>
+        </slide>
+
+        <slide class="fill nobackground" style="background-image: url(images/jawbone-up.jpg)">
+            <footer class="source black">www.jawbone.com/up</footer>
+        </slide>
+
+        <slide class="fill nobackground" style="background-image: url(images/Square_Tabs.jpg)">
+            <footer class="source white">www.squareup.com</footer>
+        </slide>
+
+        <slide>
+            <hgroup>
+                <h2>Neler yapılabilir?</h2>
+            </hgroup>
+            <article>
+                <ul class="build fade">
+                    <li class="red">Giyilebilir Cihazlar</li>
+                    <li class="blue">Osiloskop</li>
+                    <li class="green">EKG Cihazı</li>
+                    <li class="yellow">Şeker Ölçüm Cihazı</li>
+                </ul>
+            </article>
+        </slide>
+
+        <slide>
+            <hgroup>
+                <h2>Nelere ihtiyacımız var?</h2>
+
+            </hgroup>
+            <article>
+                <ul class="build">
+                    <li class="red">Akıllı telefon ve Arduino</li>
+                    <li class="blue">4 pinli 3.5mm Jack</li>
+                    <li class="green">SoftModem</li>
+                    <li class="yellow">Arduino sketch</li>
+                    <li class="gray3">Audio Terminal App</li>
+                    <li class="yellow3">Meraklı iki insan</li>
+                </ul>
+            </article>
+        </slide>
+
+        <slide>
+            <hgroup>
+                <h2>SoftModem</h2>
+            </hgroup>
+            <article>
+                <div class="columns-2">
+                    <img src="images/softmodem.jpg">
+                    <ul>
+                        <li class="gray3">3 x 100K R</li>
+                        <li class="gray3">2 x 10K R</li>
+                        <li class="gray3">1 x 4.7K R</li>
+                        <li class="gray3">2 x 1µF Kapasitör</li>
+                        <li class="gray3">4 pin 3.5mm Jack</li>
+                    </ul>
+                </div>
+            </article>
+            <footer class="source black">http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath=90_92&products_id=2199</footer>
+        </slide>
+
+        <slide class="fill nobackground" style="background-image: url(images/softmodembb.png)">
+        </slide>
+
+        <slide>
+            <hgroup>
+                <h2>FSK (Frequency Shift Keying)</h2>
+            </hgroup>
+            <article class="flexbox vcenter">
+                <img src="images/fsk.png" height="500" width="420">
+            </article>
+            <footer class="source black">http://en.wikipedia.org/wiki/Frequency-shift_keying</footer>
+        </slide>
+
+        <slide>
+            <hgroup>
+                <h2>Nasıl Çalışıyor?</h2>
+            </hgroup>
+            <article>
+                <p>Gönderici tarafında,</p>
+                <ul>
+                    <li>Veriyi ASCII olarak kodla</li>
+                    <li>ASCII kodlarını ses sinyallerine dönüştür</li>
+                    <li>Ses sinyallerini oynat</li>
+                </ul>
+                <p>Alıcı tarafında,</p>
+                <ul>
+                    <li>Ses sinyallerini yakala</li>
+                    <li>Ses sinyallerini yorumlayarak dijital veriye dönüştür</li>
+                    <li>Dijital sinyalleri orjinal mesaja dönüştür</li>
+                </ul>
+            </article>
+        </slide>
+
+        <slide>
+            <hgroup>
+                <h2>Artıları ve Eksileri</h2>
+            </hgroup>
+            <article>
+                <ul>
+                    <li>Düşük güç tüketimi</li>
+                    <li>Her cihaza uygun</li>
+                </ul>
+                <ul>
+                    <li>Biraz zahmetli</li>
+                    <li>Yavaş</li>
+                </ul>
+            </article>
+        </slide>
+
+        <slide class="segue dark nobackground">
+            <aside class="gdbar">
+                <img src="images/google_developers_icon_128.png">
+            </aside>
+            <hgroup class="auto-fadein">
+                <h2>Demo!</h2>
+            </hgroup>
+        </slide>
+
+        <slide class="thank-you-slide segue nobackground">
+            <aside class="gdbar right">
+                <img src="images/google_developers_icon_128.png">
+            </aside>
+            <article class="flexbox vleft auto-fadein">
+                <h2>&lt;Teşekkürler!&gt;</h2>
+                <p>burakaydin.net.tr - efecankocuklu.com.tr</p>
+            </article>
+            <p class="auto-fadein" data-config-contact>
+                <!-- populated from slide_config.json -->
+            </p>
+        </slide>
+
+        <slide>
+            <hgroup>
+                <h2>Kaynaklar</h2>
+            </hgroup>
+            <article>
+                <ul>
+                    <li><a href="https://code.google.com/p/arms22/wiki/SoftModemBreakoutBoard"></a>SoftModem</li>
+                    <li><a href="https://gist.github.com/burakaydn/6a6914698d41811186cd">Arduino Sketch</a></li>
+                    <li><a href="https://github.com/webos21/arduino">Audio Terminal</a></li>
+                </ul>
+            </article>
+        </slide>
+
+        <slide class="logoslide dark nobackground">
+            <article class="flexbox vcenter">
+                <span>
+                    <img src="images/google_developers_logo_white.png">
+                </span>
+            </article>
+        </slide>
+
+        <slide class="backdrop"></slide>
+
+        <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+        </script>
+
+        <!--[if IE]>
   <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
   <script>CFInstall.check({mode: 'overlay'});</script>
 <![endif]-->
 </body>
+
 </html>
