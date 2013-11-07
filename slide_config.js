@@ -23,14 +23,14 @@ var SLIDE_CONFIG = {
   // Author information
   presenters: [{
     name: 'Burak Aydın',
-    company: 'Globsis, Ankara Üni. BÖTE 4',
+    company: 'Globsis, GDG Ankara',
     gplus: 'https://plus.google.com/u/0/110957080102445790184/',
     twitter: '@burakaydn',
     www: 'http://burakaydin.net.tr',
     github: 'http://github.com/burakaydn'
   }, {
     name: 'Efecan Kocuklu',
-    company: 'ESOGÜ ..... 1<br>',
+    company: 'Developer, GDG Eskişehir<br>',
     gplus: 'https://plus.google.com/u/0/115902911550197573440/posts',
     twitter: '@efecankocuklu',
     www: 'http://www.efecankocuklu.com.tr',
