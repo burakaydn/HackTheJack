@@ -30,7 +30,7 @@ var SLIDE_CONFIG = {
     github: 'http://github.com/burakaydn'
   }, {
     name: 'Efecan Kocuklu',
-    company: 'Developer, GDG Eskişehir<br>',
+    company: 'GDG Eskişehir<br>',
     gplus: 'https://plus.google.com/u/0/115902911550197573440/posts',
     twitter: '@efecankocuklu',
     www: 'http://www.efecankocuklu.com.tr',
